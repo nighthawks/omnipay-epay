@@ -1,5 +1,5 @@
 {
-    "name": "gentor/omnipay-epay",
+    "name": "nighthawks/omnipay-epay",
     "type": "library",
     "description": "Epay Bg gateway for Omnipay payment processing library",
     "keywords": [
