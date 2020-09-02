@@ -77,6 +77,17 @@ class Gateway extends AbstractGateway
     }
 
     /**
+     * Stub method used for protocol complience
+     *
+     * @param array $parameters
+     * @return \Omnipay\Common\Message\AbstractRequest
+     */
+    public function completePurchase(array $parameters = array())
+    {
+        return $this->createRequest('\Omnipay\Epay\Message\CompletePurchaseRequest', $parameters);
+    }
+
+    /**
      * Handle notification callback.
      *
      * @param array $parameters
